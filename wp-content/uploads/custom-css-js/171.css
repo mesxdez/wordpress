@@ -1,0 +1,64 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+@font-face {
+  font-family: 'HarmonyOS Sans';
+  src: url('/wp-content/uploads/2025/02/HarmonyOS_Sans_Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HarmonyOS Sans';
+  src: url('/wp-content/uploads/2025/02/HarmonyOS_Sans_Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HarmonyOS Sans';
+  src: url('/wp-content/uploads/2025/02/HarmonyOS_Sans_Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'HarmonyOS Sans';
+  src: url('/wp-content/uploads/2025/02/HarmonyOS_Sans_Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'HarmonyOS Sans';
+  src: url('/wp-content/uploads/2025/02/HarmonyOS_Sans_Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HarmonyOS Sans';
+  src: url('/wp-content/uploads/2025/02/HarmonyOS_Sans_Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+body {
+  font-family: 'HarmonyOS Sans', sans-serif !important;
+}
+
+.e-n-accordion-item-title{
+	display: flex !important;
+	justify-content: space-between !important;
+}
+.grid-description {
+  grid-column: 1 / 5; 
+}
+h6{
+	word-wrap: break-word;
+}
+.iframe{
+	height:600px !important;
+}</style>
+<!-- end Simple Custom CSS and JS -->

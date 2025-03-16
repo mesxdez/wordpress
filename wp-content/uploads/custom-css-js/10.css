@@ -1,0 +1,63 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.wrapper{
+	position: relative;
+}
+
+.header{
+	height: 95px;
+	position:absolute;
+	top:0;
+	z-index: 2 !important;
+}
+.element-is-not-sticky{
+	width: 100%;
+}
+.element-is-not-sticky .site-header {
+  background-color: white;
+  border-radius: 0; 
+  clip-path: none;
+}
+
+@media (min-width: 1025px) {
+  .element-is-not-sticky{
+	align-self: center; 
+	width: 95%;
+	margin-top: 5px;
+	padding-right: 5px;
+  }
+  .element-is-not-sticky .site-header {
+    clip-path: polygon(50px 0%, 100% 0%, calc(100% - 50px) 100%, 0% 100%);
+	  
+	align-self: center; 
+	width: 95%;
+	margin-top: 5px;
+	padding-right: 5px;
+  }
+}
+
+.element-is-sticky{
+	background-color:white;
+	transition: opacity 5s ease-in-out !important;
+	width: 100% !important;
+	filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5));
+}
+
+.header .button-primary{
+  	clip-path: polygon(12% 0%, 100% 0%, 88% 100%, 0% 100%);
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 200px;
+	background: linear-gradient(99.76deg, #6EA188 6.63%, #298D7E 98.89%);
+}
+.register-button{
+  	clip-path: polygon(12% 0%, 100% 0%, 88% 100%, 0% 100%);
+}
+.popular-product-container{
+	width:80%;
+}
+.n2-ss-no-bga-fixed{
+	justify-content:center;
+	display: flex;
+}</style>
+<!-- end Simple Custom CSS and JS -->
